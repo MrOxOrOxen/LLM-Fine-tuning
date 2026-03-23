@@ -59,7 +59,7 @@ LLM3_DPO will train and generate a new LLM3 model.
 
 ## Contributions
 
-Circ 1 is processed in parallel now through batch. Qwen function is also updated.
+Circ 1 is processed in parallel now through batch. Qwen function is also updated. Thus, the pressure on the GPU decreases sharply.
 
 ## Functions
 
@@ -75,6 +75,8 @@ Batch is used in the functions above.
 LoRA is implemented when the model is being trained by DPO. In this version, **a new DPO model will not be saved**. A LoRA file will be saved instead.
 
 When loading model, a base model and a LoRA file will be loaded. This is equivalent to the new model being loaded.
+
+By storing LoRA files only, the storage space of the server is freed.
 
 ## Functions
 
