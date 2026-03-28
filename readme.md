@@ -70,9 +70,11 @@ Updated: LLM2_estimated, LLM2_DPO, LLM3_optimize, LLM3_DPO
 Batch is used in the functions above.
 
 # Qwen_v4
-*Last updated on March 23, 2026*
+*Last updated on March 28, 2026*
 
 ## Contributions
+
+Bugs are corrected in this version.
 
 LoRA is implemented when the model is being trained by DPO. In this version, **a new DPO model will not be saved**. A LoRA file will be saved instead.
 
