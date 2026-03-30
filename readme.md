@@ -72,6 +72,8 @@ Batch is used in the functions above.
 # Qwen_v4
 *Last updated on March 28, 2026*
 
+**This version has not been compiled.**
+
 ## Contributions
 
 Bugs are corrected in this version.
@@ -85,4 +87,9 @@ By storing LoRA files only, the storage space of the server is freed.
 ## Functions
 
 Updated: LLM2_DPO, LLM3_DPO
+
+# Qwen_v5
+*Last updated on March 30, 2026*
+
+
 
